@@ -23,7 +23,7 @@ public class Main{
 			int j = i - 1; //Variável que nos auxilia na criação de uma "régua" para comparação. Ele inicia no primeiro índice (i - 1).
 			
 			while(j >= 0 && array[j] > temp) { //Loop que roda enquanto j for igual ou maior que 0, para que o loop cesse quando reconhecer o inicio do array,
-											   //e o índice j for maior que "temp", o que em suma, serve como o comparador lógico que organiza os elementos.
+							   //e o índice j for maior que "temp", o que em suma, serve como o comparador lógico que organiza os elementos.
 				
 				array[j + 1] = array[j]; //Rearranjo dos elementos. O índice j é movido para a direita, abrindo espaço para o elemento escrito em "temp".
 				j--;//Diminuição do valor de j, para que a comparação continue sendo executada em direção ao inicio do array, até que o elemento esteja na posição correta.
